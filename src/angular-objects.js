@@ -12,6 +12,10 @@
         return obj3;
       };
 
+      Objects.prototype.size = function (assocArray) {
+        return Object.keys(assocArray).length;
+      };
+
       return new Objects();
     });
 
